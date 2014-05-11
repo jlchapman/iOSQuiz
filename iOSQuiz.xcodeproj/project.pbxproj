@@ -19,8 +19,8 @@
 		F3D789D6191E886C004701A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D789BE191E886C004701A2 /* UIKit.framework */; };
 		F3D789DE191E886C004701A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3D789DC191E886C004701A2 /* InfoPlist.strings */; };
 		F3D789E0191E886C004701A2 /* iOSQuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D789DF191E886C004701A2 /* iOSQuizTests.m */; };
-		F3D789EC191EF4F2004701A2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D789EA191EF4F2004701A2 /* MainViewController.m */; };
-		F3D789ED191EF4F2004701A2 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3D789EB191EF4F2004701A2 /* MainViewController.xib */; };
+		F3D789F1191FB39F004701A2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D789EF191FB39F004701A2 /* MainViewController.m */; };
+		F3D789F2191FB39F004701A2 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3D789F0191FB39F004701A2 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +50,9 @@
 		F3D789DB191E886C004701A2 /* iOSQuizTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSQuizTests-Info.plist"; sourceTree = "<group>"; };
 		F3D789DD191E886C004701A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F3D789DF191E886C004701A2 /* iOSQuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSQuizTests.m; sourceTree = "<group>"; };
-		F3D789E9191EF4F2004701A2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		F3D789EA191EF4F2004701A2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		F3D789EB191EF4F2004701A2 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		F3D789EE191FB39F004701A2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F3D789EF191FB39F004701A2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F3D789F0191FB39F004701A2 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +114,9 @@
 			children = (
 				F3D789C9191E886C004701A2 /* GISAppDelegate.h */,
 				F3D789CA191E886C004701A2 /* GISAppDelegate.m */,
-				F3D789E9191EF4F2004701A2 /* MainViewController.h */,
-				F3D789EA191EF4F2004701A2 /* MainViewController.m */,
-				F3D789EB191EF4F2004701A2 /* MainViewController.xib */,
+				F3D789EE191FB39F004701A2 /* MainViewController.h */,
+				F3D789EF191FB39F004701A2 /* MainViewController.m */,
+				F3D789F0191FB39F004701A2 /* MainViewController.xib */,
 				F3D789CC191E886C004701A2 /* Images.xcassets */,
 				F3D789C1191E886C004701A2 /* Supporting Files */,
 			);
@@ -229,8 +229,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3D789C5191E886C004701A2 /* InfoPlist.strings in Resources */,
-				F3D789ED191EF4F2004701A2 /* MainViewController.xib in Resources */,
 				F3D789CD191E886C004701A2 /* Images.xcassets in Resources */,
+				F3D789F2191FB39F004701A2 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +250,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3D789CB191E886C004701A2 /* GISAppDelegate.m in Sources */,
-				F3D789EC191EF4F2004701A2 /* MainViewController.m in Sources */,
 				F3D789C7191E886C004701A2 /* main.m in Sources */,
+				F3D789F1191FB39F004701A2 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
